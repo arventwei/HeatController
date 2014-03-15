@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" 
+ >
+        
+        <TextView
+            android:id="@+id/advance_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:text="@string/heat_time_info"
+            android:textColor="#ff000000" />
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      android:paddingLeft="15dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tb_blank_left"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:text="@string/heat_time"
+                android:textColor="#ff000000"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editPhoneHeatTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tb_blank_right"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="15dp" >
+
+                
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_phoneHeatTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_send"
+             
+                android:padding="12dp"
+                android:text="@string/send" />
+
+        </LinearLayout>
+
+          <TextView
+              android:id="@+id/advance_text2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="25dp"
+              android:paddingTop="5dp"
+              android:text="@string/heat_time_start_label"
+              android:textColor="#ff000000" />
+          
+  		<TableRow
+  		    android:layout_width="fill_parent"
+  		    android:layout_height="wrap_content"
+  		    android:gravity="center_vertical"
+            android:orientation="horizontal"
+  		    android:paddingLeft="15dp" >
+
+  		    <TextView
+  		        android:layout_width="wrap_content"
+  		        android:layout_height="wrap_content"
+  		        android:background="@drawable/tb_blank_left"
+  		        android:gravity="left|center"
+  		        android:paddingLeft="10dp"
+  		        android:text="@string/auto_start_setting"
+  		        android:textColor="#ff000000"
+  		        android:textSize="16dp" />
+
+  		    <Button
+  		        android:id="@+id/editAutoStartTime"
+  		        android:layout_width="wrap_content"
+  		        android:layout_height="wrap_content"
+  		        android:layout_weight="1"
+  		        android:background="@drawable/tb_blank_right"
+  		        android:clickable="true"
+  		        android:gravity="center_vertical|center_horizontal|left"
+  		        
+  		   
+  		        android:textSize="15dp" />
+
+  		    <Button
+  		        android:id="@+id/btn_autoStartTime"
+  		        android:layout_width="wrap_content"
+  		        android:layout_height="wrap_content"
+  		        android:layout_gravity="right"
+  		        android:layout_marginLeft="10dp"
+  		        android:layout_marginRight="10dp"
+  		        android:background="@drawable/btn_send"
+  		       
+  		        android:padding="12dp"
+  		        android:text="@string/send" />
+
+  		</TableRow>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/advance_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:paddingLeft="25dp"
+                android:text="@string/auto_start_enable"
+                android:textColor="#ff000000"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btn_enable_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_send"
+                
+                android:padding="12dp"
+                android:text="@string/send" />
+            
+            <ToggleButton
+                android:id="@+id/toggleAutoStartEnable"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="0dp"
+                android:layout_toLeftOf="@id/btn_enable_timer"
+                android:background="@drawable/btn_toggle"
+                android:textOff=""
+                android:textOn="" />
+
+        </RelativeLayout>
+
+        	<RelativeLayout
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="15dp" >
+
+        		<TextView
+        		    android:id="@+id/advance_text4"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_alignParentLeft="true"
+        		    android:layout_centerInParent="false"
+        		    android:layout_centerVertical="true"
+        		    android:paddingLeft="25dp"
+        		    android:text="@string/recovery"
+        		    android:textColor="#ff000000"
+        		    android:textSize="16dp" />
+
+        		<Button
+        		    android:id="@+id/btn_bind_car"
+        		    android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_alignParentRight="true"
+        		    android:layout_marginLeft="10dp"
+        		    android:layout_marginRight="10dp"
+        		    android:background="@drawable/btn_send"
+        		    
+        		    android:padding="12dp"
+        		    android:text="@string/send" />
+
+        	</RelativeLayout>
+      </LinearLayout>

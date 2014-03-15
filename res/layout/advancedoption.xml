@@ -1,0 +1,27 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:stretchColumns="1" >
+        
+  <include android:id="@+id/advance_opt_car1" layout="@layout/advance_car" />
+  
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/separator_big" />
+    
+  <include android:id="@+id/advance_opt_car2" layout="@layout/advance_car" />
+  
+
+    </TableLayout>
+
+</ScrollView>

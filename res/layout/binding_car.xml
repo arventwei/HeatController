@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+android:focusableInTouchMode="true" 
+ >
+
+    <TextView
+        android:id="@+id/label_bind_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/user_bound_num"
+        android:textColor="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:orientation="horizontal"
+        android:padding="10.0dip" >
+        
+         <Button
+             android:id="@+id/btn_bound1"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:background="@drawable/btn_segment_left"
+             
+             
+             android:text="@string/num1"
+             android:textSize="16.0dip" />
+            
+            <Button
+                android:id="@+id/btn_bound2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_segment_middle"
+                
+                
+                android:text="@string/num2"
+                android:textSize="16.0dip" />
+
+             <Button
+                 android:id="@+id/btn_bound3"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                android:layout_weight="1"
+                 android:background="@drawable/btn_segment_right"
+                
+                 
+                 android:text="@string/num3"
+                 android:textSize="16.0dip" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/label_bind_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/user_bound_sim"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:id="@+id/binding_edit_sim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/tb_blank"
+        android:ems="10"
+        android:hint=""
+        android:inputType="number"
+        android:maxLength="11" >
+     
+    </EditText>
+
+     <TextView
+         android:id="@+id/label_bind_3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+         android:text="@string/user_bound_password"
+         android:textColor="#ff000000" />
+
+     <EditText
+         android:id="@+id/binding_edit_pwd"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="15dp"
+         android:background="@drawable/tb_blank"
+         android:ems="10"
+         android:inputType="textPassword"
+         android:maxLength="6" />
+
+     <Button
+         android:id="@+id/btn_bind_car"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_gravity="center_horizontal"
+         android:background="@drawable/btn_send"
+ 
+         android:padding="10dp"
+         android:text="@string/user_bound_send" />
+   
+</LinearLayout>

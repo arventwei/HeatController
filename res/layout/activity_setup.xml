@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+ >
+    <include 
+        layout="@layout/logo_info" />
+    <LinearLayout 
+        android:gravity="center" 
+        android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_margin="40.0dip">
+
+        <Button
+            android:id="@+id/btn_user_bound"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bar_up"
+            android:padding="0.0dip"
+            android:text="@string/setup_user_bound"
+            android:textSize="16.0dip"
+            android:onClick="onUserBound"
+             />
+
+         <Button
+             android:id="@+id/btn_start_mode"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/bar_middle"
+          
+             android:padding="0.0dip"
+             android:text="@string/setup_start_mode"
+             android:textSize="16.0dip"
+             android:onClick="onStartMode"
+              />
+
+          <Button
+              android:id="@+id/btn_set_password"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bar_middle"
+          
+             
+              android:padding="0.0dip"
+              android:text="@string/setup_set_password"
+              android:textSize="16.0dip"
+              android:onClick="onSetPassword" />
+
+        <Button
+            android:id="@+id/btn_advanced_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bar_down"
+          
+            android:padding="0.0dip"
+            android:text="@string/setup_advanced_option"
+            android:textSize="16.0dip"
+            android:onClick="onAdvancedOption" />
+
+    </LinearLayout>
+</LinearLayout>

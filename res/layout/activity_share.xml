@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+ >
+    <include 
+        layout="@layout/logo_info" />
+    <LinearLayout 
+        android:gravity="center" 
+        android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_margin="40.0dip">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/share_value" />
+        
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/btn_send"
+            android:onClick="onShareClick"
+            android:padding="10dp"
+            android:text="@string/main_share" />
+
+    </LinearLayout>
+</LinearLayout>

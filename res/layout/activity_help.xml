@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+ >
+    <include 
+        layout="@layout/logo_info" />
+    <LinearLayout 
+        android:gravity="center" 
+        android:orientation="vertical" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_margin="40.0dip">
+
+        <Button
+            android:id="@+id/btn_quickstart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bar_up"
+            android:onClick="onClick"
+            android:padding="0.0dip"
+            android:text="@string/help_quickstart"
+            android:textSize="16.0dip" />
+
+          <Button
+            android:id="@+id/btn_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bar_middle"
+            android:padding="0.0dip"
+            android:onClick="onClick"
+            android:text="@string/help_detail"
+            android:textSize="16.0dip" />
+
+        <Button
+            android:id="@+id/btn_contactus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bar_down"
+            android:onClick="onClick"
+            android:padding="0.0dip"
+            android:text="@string/help_contact"
+            android:textSize="16.0dip" />
+
+    </LinearLayout>
+</LinearLayout>

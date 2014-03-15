@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">加热器遥控</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好</string>
+    <string name="company_name">加热器控制系统</string>
+    <string name="setup">设置</string>
+    <string name="query">查询</string>
+    <string name="start">启动</string>
+    <string name="main_share">分享</string>
+    <string name="share_value">大家好，今年我为爱车安装了车载预热系统，使用配套的手机遥控装置，无论车停在哪里，只需要轻轻一键便可自动启动和关闭预热系统，你也来了解一下吧！
+
+www.txmcu.com</string>
+	<string name="share_url">http://zhushou.360.cn/detail/index/soft_id/818368</string>
+
+    <string name="help">帮助</string>
+    
+        <string name="setup_user_bound">用户绑定</string>
+    <string name="setup_start_mode">启动模式</string>
+    <string name="setup_set_password">设置密码</string>
+    <string name="setup_advanced_option">高级选项</string>
+    
+        <string name="query_setting1">查询车1设置</string>
+     <string name="query_bound1">查询车1绑定</string>
+             <string name="query_setting2">查询车2设置</string>
+     <string name="query_bound2">查询车2绑定</string>
+     
+         <string name="start_mode_sms">短信模式</string>
+     <string name="start_mode_phone">电话模式</string>
+     
+    <string name="start_runtime">请选择加热时长，单位分钟</string>
+    <string name="start_phone_runtime">当前加热时长为%d分钟</string>
+    <string name="start_time1">10</string>
+    <string name="start_time2">20</string>
+    <string name="start_time3">30</string>
+    <string name="start_time4">40</string>
+    <string name="start_time5">50</string>
+    
+    <string name="start_engine">启  动</string>
+    <string name="start_stop">关  闭</string>
+    
+   <string name="help_quickstart">快速启动</string>
+    <string name="help_detail">详细说明</string>
+    <string name="help_contact">联系我们</string>
+    
+    <string name="top_back">返回</string>
+    <string name="top_ok">确定</string>
+    <string name="top_bound">绑定</string>
+    <string name="user_bound_num">车%d加热器绑定序号\t每台设备可绑定3个用户</string>
+    
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="user_bound_sim">车%d加热器的11位SIM号码</string>
+    <string name="user_bound_password">车%d加热器的操作密码，初始密码为000000</string>
+    <string name="user_bound_send">绑定车%d加热器</string>
+    <string name="select_startmode">请选择启动模式</string>
+    <string name="smsmode">短信模式</string>
+    <string name="phonemode">电话模式</string>
+    <string name="startmodeinfo">短信模式下费用以运营商资费为准\n\n电话模式免费</string>
+    <string name="send">发送</string>
+    <string name="old_pwd">旧密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="confirm_pwd">确认新密码</string>
+    
+    <string name="setpassword_label">修改车%d的操作密码，默认为000000</string>
+    <string name="setpassword_info">密码长度只能为6位数字</string>
+    <string name="setpassword_sender">修改车%d密码</string>
+
+    <string name="top_query">查询</string>
+    
+    <string name="heat_time">预热时间</string>
+    <string name="auto_start_setting">定时启动时间</string>
+    
+    
+    <string name="heat_time_info">设置车%d电话启动加热时间(1-180分钟)</string>
+     <string name="heat_time_start_label">设置车%d定时启动时间</string>
+    <string name="auto_start_enable">车%d定时启动功能</string>
+    <string name="recovery">车%d恢复出厂设置</string>
+    
+    
+    
+    <string name="auto_stop_setting">自动关机温度</string>
+    <string name="auto_stop_enable">温控关机功能</string>
+    <string name="calibrate_time">校正时间</string>
+    
+    <string name="now_time">当前时间</string>
+    <string name="now_temp">当前温度</string>
+    <string name="auto_start_time">定时开时间</string>
+    <string name="auto_start_state">定时功能</string>
+    <string name="auto_stop_temp">温控温度</string>
+    <string name="auto_stop_state">温控功能</string>
+    <string name="lastcheck_time">上次查询时间</string>
+    <string name="bound1">绑定1</string>
+    <string name="bound2">绑定2</string>
+    <string name="bound3">绑定3</string>
+    <string name="password">密码</string>
+    <string name="heat_state">加热器状态</string>
+    
+    <string name="sms_no_sim">请首先完成预热系统绑定设置</string>
+    <string name="sms_processing">指令处理中请稍候</string>
+    <string name="sms_sending">指令发送中请稍后</string>
+    <string name="sms_send_ok">指令发送成功</string>
+    
+    <string name="sms_pwd_wrong_length">密码长度错误，请重新输入</string>
+    <string name="sms_pwd_wrong_confrm">密码两次输入不一致</string>
+    
+       <string name="set_phone_heatTime_wrong">预热时间只能在1–180分钟之间</string>
+        <string name="set_auto_stop_temp_wrong">温度范围只能在0-99度之间</string>
+          <string name="function_limited">当前硬件版本不支持此功能</string>
+         <string name="start_car1">车1</string>
+     <string name="start_car2">车2</string>
+     <string name="start_car3">车3</string>
+</resources>
